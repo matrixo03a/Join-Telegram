@@ -19,14 +19,25 @@
       width: 100%;
       background-color: #f4f4f4;
       font-family: Arial, sans-serif;
-      overflow: hidden; /* Prevent scrolling */
+      overflow: hidden;
     }
 
     .container {
       height: 100%;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .info-message {
+      font-size: 18px;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 30px;
+      max-width: 90%;
     }
 
     .telegram-button {
@@ -64,6 +75,11 @@
 <body>
 
   <div class="container">
+
+    <p class="info-message">
+      <strong>This bot has been newly created. Many more features will be added here soon!</strong>
+    </p>
+
     <a class="telegram-button" href="https://t.me/+9mVjhPoVRl1kMzVl" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
         <path d="M120,0C53.73,0,0,53.73,0,120s53.73,120,120,120s120-53.73,120-120S186.27,0,120,0z M174.65,80.45 
@@ -73,6 +89,7 @@
       </svg>
       Join Telegram
     </a>
+
   </div>
 
 </body>
